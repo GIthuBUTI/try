@@ -1,3 +1,6 @@
+import request
+url = 'https://raw.githubusercontent.com/sarusso/ProgrammingLab/main/files/shampoo_sales.csv'
+a = 4
 def sum_list(list):
     sum = 0
     for number in list:
@@ -15,4 +18,4 @@ for item in the_list:
         print('{} + '.format(item), end="")
     else:
         print('{} = '.format(item), end="")
-print(colored('{}'.format(sum_list(the_list)), 'blue', 'on_green'))
+print(colored('{}'.format(sum_list(the_list)), 'green'))
