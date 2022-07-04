@@ -8,6 +8,7 @@ def sum_csv(file):
             date = elements[0]
             value = float(elements[1])
             values.append(value)    
+            print(value)
     sum = 0
     for item in values:
         sum += item

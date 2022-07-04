@@ -1,6 +1,3 @@
-import request
-url = 'https://raw.githubusercontent.com/sarusso/ProgrammingLab/main/files/shampoo_sales.csv'
-a = 4
 def sum_list(list):
     sum = 0
     for number in list:
