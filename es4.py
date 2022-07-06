@@ -12,7 +12,7 @@ class CSVFile():
             elements = item.split(',')
             if elements[0] != 'Date':   
                 elements[1] = str(float(elements[1]))
-                list.append(elements) 
+            list.append(elements) 
         my_file.close()
         return list
         
